@@ -4,33 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="./src/output.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>X.com</title>
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white ">
     <!-- Left Part Of the Website -->
-    <div class="md:container justify-center flex max-w-5xl mx-auto">
-        <div class="leftpart sticky w-1/2 h-screen m-0 font-bold font-x-large top-0">
-            <div class="logo"></div>
-            <div class="flex items-center m-10 mr-0 md:" id="home"><span class="material-symbols-outlined"> home
-                </span>Home</div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> search </span>Search</div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> notifications
-                </span>Notification</div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> chat </span>Chat</div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> list </span>List</div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> bookmarks </span>Bookmarks
+    <div class="md:container justify-center flex max-w-5xl mx-auto mt-[10px]">
+        <div class="leftpart sticky w-full h-full m-0 font-bold top-0">
+            <div>
+                <div class="logo invert self-start">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+                <span class="px-12">
+                    <div class="flex pl-14 items-center m-10 mr-0 mt-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="!text-3xl material-symbols-outlined"> home</span>
+                            <span class="ml-2 text-2xl">Home</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl">search </span>
+                            <span class="ml-2 text-2xl">Search</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> notifications</span>
+                            <span class="ml-2">Notification</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> chat </span>
+                            <span class="ml-2">Chat</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> list </span>
+                            <span class="ml-2">List</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> bookmarks </span>
+                            <span class="ml-2">Bookmarks</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> Group </span>
+                            <span class="ml-2">Group</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> box </span>
+                            <span class="ml-2">Collections</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> person </span>
+                            <span class="ml-2">Profile</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center pl-14 m-10 mr-0 text-2xl">
+                        <div class=" flex hover:bg-gray-900 rounded-full p-2 ">
+                            <span class="material-symbols-outlined !text-3xl"> pending </span>
+                            <span class="ml-2">More</span>
+                        </div>
+                    </div>
+                </span>
+
+                <button class="bg-blue-400 rounded-full ml-10" style="padding: 12px 72px;">Post</button>
+
+                <div class="profile flex items-start border border-gray-600 p-3 mt-5">
+                    <div class="left">
+                        <div class="w-10 h-10 border rounded-full border-gray-600"></div>
+                    </div>
+                    <div class="right ml-3">
+                        <div>Ak.Dev</div>
+                        <div class="flex justify-between items-center">
+                        <div class="text-gray-400">@ak.dev</div>
+                        <div class="text-gray-400"> ...</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> Group </span>Group</div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> box </span>Collections
-            </div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> person </span>Profile
-            </div>
-            <div class="flex items-center m-10 mr-0"><span class="material-symbols-outlined"> pending </span>More</div>
         </div>
 
         <!-- Mid Part of the Website -->
@@ -42,10 +124,15 @@
                 <span>Following</span>
                 <span class="material-symbols-outlined mr-1.5"> settings </span>
             </div>
+
             <div class="overflow-auto">
+
+
                 <div class="firstPost border-[1px] border-l-0 border-r-0 border-gray-600">
                     <div class="mainBox flex items-start gap-1 w-full mt-3 mb-3">
-                        <div class="left bg-gray-500 w-10 h-10 rounded-full m-3 "></div>
+                        <div class="left">
+                            <div class="w-10 h-10 bg-gray-500 m-3 rounded-full"></div>
+                        </div>
                         <div class="right mt-3">
                             <span class=""> What is Happening?! </span>
                             <div class="m-3 ml-0 flex items-center text-blue-400 font-bold"><span
@@ -53,12 +140,12 @@
                             <div class="line w-full border-[1px] border-gray-600 mt-3 mb-3"></div>
                             <div class="text-blue-400 flex items-center justify-between">
                                 <div>
-                                    <span class="material-symbols-outlined">image</span>
-                                    <span class="material-symbols-outlined">gif</span>
-                                    <span class="material-symbols-outlined">ballot</span>
-                                    <span class="material-symbols-outlined">sentiment_satisfied</span>
-                                    <span class="material-symbols-outlined">calendar_month</span>
-                                    <span class="material-symbols-outlined">pin_drop</span>
+                                    <span class="material-symbols-outlined cursor-pointer">image</span>
+                                    <span class="material-symbols-outlined cursor-pointer">gif</span>
+                                    <span class="material-symbols-outlined cursor-pointer">ballot</span>
+                                    <span class="material-symbols-outlined cursor-pointer">sentiment_satisfied</span>
+                                    <span class="material-symbols-outlined cursor-pointer">calendar_month</span>
+                                    <span class="material-symbols-outlined cursor-pointer">pin_drop</span>
                                 </div>
                                 <div class="bg-blue-400 text-white ml-3 rounded-full pt-2 pb-2 pl-6 pr-6 font-bold">Post
                                 </div>
@@ -66,6 +153,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="secondPost border-b-[1px] border-gray-600 flex">
                     <div class="mainBox flex items-start gap-1 w-full mt-3 mb-3">
                         <div class="left">
@@ -81,21 +170,23 @@
                             </div>
                             <div class="flex items mt-3 gap-1 text-gray-600">
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
                                         class="material-symbols-outlined">chat_bubble</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
                                         class="material-symbols-outlined">repeat</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
                                         class="material-symbols-outlined">favorite</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
                                         class="material-symbols-outlined">bar_chart</span>1k</span>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="thirdPost border-b-[1px] border-gray-600 flex">
                     <div class="mainBox flex items-start gap-1 w-full mt-3 mb-3">
                         <div class="left">
@@ -113,21 +204,23 @@
                             </div>
                             <div class="flex items mt-3 gap-1 text-gray-600">
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
                                         class="material-symbols-outlined">chat_bubble</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
                                         class="material-symbols-outlined">repeat</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
                                         class="material-symbols-outlined">favorite</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
                                         class="material-symbols-outlined">bar_chart</span>1k</span>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="fourthPost">
                     <div class="mainBox flex border-b-[1px] border-gray-600 items-start gap-1 w-full mt-3 pb-3">
                         <div class="left">
@@ -143,22 +236,24 @@
                                 alt="">
                             <div class="flex items mt-3 gap-1 text-gray-600">
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
                                         class="material-symbols-outlined">chat_bubble</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
                                         class="material-symbols-outlined">repeat</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
                                         class="material-symbols-outlined">favorite</span>1k</span>
                                 <span
-                                    class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
+                                    class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
                                         class="material-symbols-outlined">bar_chart</span>1k</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
             <div class="fifthPost flex">
                 <div class="mainBox flex items-start gap-1 w-full mt-3 mb-3">
                     <div class="left">
@@ -175,16 +270,16 @@
                         </div>
                         <div class="flex items mt-3 gap-1 text-gray-600">
                             <span
-                                class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
+                                class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-blue-500"><span
                                     class="material-symbols-outlined">chat_bubble</span>1k</span>
                             <span
-                                class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
+                                class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-green-500"><span
                                     class="material-symbols-outlined">repeat</span>1k</span>
                             <span
-                                class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
+                                class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-pink-500"><span
                                     class="material-symbols-outlined">favorite</span>1k</span>
                             <span
-                                class="flex align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
+                                class="flex cursor-pointer align-bottom hover:rounded-full p-1 hover:bg-gray-900 hover:text-red-500"><span
                                     class="material-symbols-outlined">bar_chart</span>1k</span>
                         </div>
                     </div>
@@ -196,32 +291,40 @@
         <div class="rightpart w-full ml-1">
             <input type="text" class="w-1/2 h-10 bg-gray-800 text-white rounded-full px-4 mt-3 ml-3 mb-2"
                 placeholder="Search ">
+
             <div class="card1 w-1/2 rounded-2xl m-3 py-5 bg-[#16181c]">
                 <h2 class="text-2xl mt-2.5 px-2">Whats Happening</h2>
+
                 <div class="hover:bg-gray-800 cursor-pointer px-2">
                     <div class="mt-4 text-gray-200">#Trending in India</div>
                     <div class="font-bold">#Ak.dev</div>
                     <div class="text-sm text-gray-200">40.2k Posts</div>
                 </div>
+
                 <div class="hover:bg-gray-800 cursor-pointer px-2">
                     <div class="mt-4 text-gray-200">#Trending in India</div>
                     <div class="font-bold">#Ak.dev</div>
                     <div class="text-sm text-gray-200">40.2k Posts</div>
                 </div>
+
                 <div class="hover:bg-gray-800 cursor-pointer px-2">
                     <div class="mt-4 text-gray-200">#Trending in India</div>
                     <div class="font-bold">#Ak.dev</div>
                     <div class="text-sm text-gray-200">40.2k Posts</div>
                 </div>
+
                 <div class="hover:bg-gray-800 cursor-pointer px-2">
                     <div class="mt-4 text-gray-200">#Trending in India</div>
                     <div class="font-bold">#Ak.dev</div>
                     <div class="text-sm text-gray-200">40.2k Posts</div>
                 </div>
             </div>
+
+
             <div class="card2 w-1/2 rounded-2xl m-3 py-5 bg-[#16181c]">
                 <h2 class="text-2xl mt-2.5 px-2">Who to follow</h2>
-                <div class="flex justify-between items-center px-2 mt-4">
+
+                <div class="flex flex-wrap justify-between items-center px-2 mt-4">
                     <div class="flex items-center">
                         <div class="w-10 h-10 rounded-full bg-gray-500"></div>
                         <div class="ml-2">
@@ -231,7 +334,8 @@
                     </div>
                     <button class="border rounded-3xl bg-white text-black font-bold p-2">Follow</button>
                 </div>
-                <div class="flex justify-between items-center px-2 mt-4">
+
+                <div class="flex flex-wrap justify-between items-center px-2 mt-4">
                     <div class="flex items-center">
                         <div class="w-10 h-10 rounded-full bg-gray-500"></div>
                         <div class="ml-2">
@@ -241,7 +345,8 @@
                     </div>
                     <button class="border rounded-3xl bg-white text-black font-bold p-2">Follow</button>
                 </div>
-                <div class="flex justify-between items-center px-2 mt-4">
+
+                <div class="flex flex-wrap justify-between items-center px-2 mt-4">
                     <div class="flex items-center">
                         <div class="w-10 h-10 rounded-full bg-gray-500"></div>
                         <div class="ml-2">
@@ -251,17 +356,19 @@
                     </div>
                     <button class="border rounded-3xl bg-white text-black font-bold p-2">Follow</button>
                 </div>
+
                 <div class="px-2 mt-2 hover:underline text-blue-600">Show More</div>
+
             </div>
 
             <div class="footer w-1/2 m-3 mt-5 text-gray-400 text-sm flex flex-wrap gap-3.5">
-                <a class="hover:underline" href="#">Terms of service</a>
-                <a class="hover:underline" href="#">Privacy Policy</a>
-                <a class="hover:underline" href="#">Cookie Policy</a>
-                <a class="hover:underline" href="#">Accessibility</a>
-                <a class="hover:underline" href="#">Ads info</a>
-                <a class="hover:underline" href="#">More</a>
-                <a class="hover:underline" href="#">&copy; X Corp.</a>
+                <a class="hover:underline cursor-pointer" href="#">Terms of service</a>
+                <a class="hover:underline cursor-pointer" href="#">Privacy Policy</a>
+                <a class="hover:underline cursor-pointer" href="#">Cookie Policy</a>
+                <a class="hover:underline cursor-pointer" href="#">Accessibility</a>
+                <a class="hover:underline cursor-pointer" href="#">Ads info</a>
+                <a class="hover:underline cursor-pointer" href="#">More</a>
+                <a class="hover:underline cursor-pointer" href="#">&copy; X Corp.</a>
             </div>
         </div>
     </div>
