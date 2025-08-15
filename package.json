@@ -1,13 +1,16 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.11",
-    "tailwindcss": "^4.1.11"
+    "@tailwindcss/cli": "^4.1.11"
   },
   "name": "x.com-(twitter)",
   "version": "1.0.0",
-  "description": "",
+  "description": "A **UI-only** front-end clone of **X.com (formerly Twitter)** built using **HTML** and **TailwindCSS**.  \r This project focuses entirely on replicating the layout and design of X.com without any backend or JavaScript functionality.",
   "main": "script.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
@@ -15,5 +18,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansh-tyagi11/x.com-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ansh-tyagi11/x.com-clone/issues"
+  },
+  "homepage": "https://github.com/ansh-tyagi11/x.com-clone#readme"
 }
